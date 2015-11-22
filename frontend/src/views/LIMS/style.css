@@ -1,0 +1,53 @@
+.was-validated .custom-select:valid {
+  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23636f83' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
+}
+
+
+.was-validated .custom-select:invalid {
+  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23636f83' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
+}
+
+.was-validated .form-control:valid {
+  background: none;
+}
+
+.was-validated .form-control:invalid {
+  background: none;
+}
+
+#tableUserTypes .table thead th {
+  border: 1px solid    rgba(224, 224, 224, 1) !important;
+  background-color: rgba(235, 237, 239, 1);
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+#tableUserTypes .table td {
+  border: 1px solid    rgba(224, 224, 224, 1) !important;
+}
+
+#tableSampleTypes .table thead th {
+  border: 1px solid    rgba(224, 224, 224, 1) !important;
+  background-color: rgba(235, 237, 239, 1);
+  text-align: center;
+}
+
+#tableSampleTypes .table thead th:first-child {
+  text-align: left;
+}
+
+#tableSampleTypes .table td {
+  border: 1px solid    rgba(224, 224, 224, 1) !important;
+}
+
+#tableClients .table thead th {
+  white-space: nowrap;
+}
+
+.table th {
+  font-weight: 500 !important;
+}
+
+.table td {
+  vertical-align: middle;
+}
